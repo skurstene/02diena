@@ -1,0 +1,61 @@
+body {
+    margin:0 ;
+}
+.top-header{
+    background-color: black;
+    color:#ffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin:0 auto;
+    padding:0 20px;
+}
+
+.flex-container {
+    display:flex;
+}
+.container.flex-container {
+    justify-content: space-between;
+}
+ul {
+    list-style:none;
+}
+
+.contact-header ul li a,
+.social-header ul li a {
+    color:#ffff;
+    text-decoration:none;
+}
+.contact-header ul li a{
+    padding-right: 20px;
+}
+.social-header ul li a {
+    padding-left: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:#cccc;
+    padding-left: 12px;
+}
+.logo{
+    padding: 5px 0;
+    padding-right: 20px;
+}
+.logo.png {
+    display: block;
+    padding-right: 0xp;
+}
+button{
+    width:150px;
+    height: 20px;
+    background-color: aquamarine;
+    border: none;
+    transition: background-color 0.5s ease-in-out;
+    font-size: 20px;
+    border-radius: 50%;
+}
+button:hover{
+    background-color: chartreuse;
+
+}
