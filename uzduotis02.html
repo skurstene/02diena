@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <style>table, th, td{
+        border:1px solid black;</style>} 
 </head>
 <body>
     <img src="download.png"alt="Vilnius codingschool">
-
     <h2>About</h2>
     <p><b>Lorem Ipsum</b> is simply tevt of the <i>printing</i> and <i>typesetting industry</i>. Loren Ipsum has the industry's standart 
         dummy text every since the 1500s, when an unknown printer took a galley of type and scrambled it ti make a 
@@ -17,11 +18,65 @@
          remaining esentially unchanged.</p>
     <h2>Projects</h2>
     <ul>
-        <li><a>Featured</a></li>
-        <p><i class="bi bi-circle"></i>Project 1</p>
+        <li>Featured</li>
+        <ul>
+            <li><a href="projektas1.html">Project 1</a></li>
+            <li><a href ="projektas2.html">Project 2</a></li>
+
+        </ul>
+        <li>Latest</li>
+        <ul>
+            <li><a href="projektas4.html">Project 4</a></li>
+            <li><a href="projektas5.html">Project 5</a></li>
+        </ul>
     </ul>
-
-
-
+    <h2>Festival Schedule</h2>
+    <table style="width:16%">
+        <tr>
+          <th>Time</th>
+          <th>Topic</th>
+        </tr>
+        <tr>
+            <td>9:00-12:00</td>
+            <td>Registration</td>
+        </tr>
+        <tr>
+            <td>12:00-14:00</td>
+            <td>Keynote</td>
+        </tr>
+    </table>
+    
+         <h2>Sign up!</h2>
+        <div class="container">
+            <hr>
+                <label for="Name"><b>Name</b></label>
+                <input type="text" placeholder="Enter your name" required>
+        </div>     
+        <div class="container">
+                <label for="Email"><b>Email</b></label>
+                <input type="Email" placeholder="Enter your email" required>
+                <label>
+             </hr>   
+        </div> 
+    <div class="container">
+            <label for="Location">Location</label>
+        <select id="Location name="Location">
+            <option value="Choose city"> Choose city</option>
+            <option value="Kaunas">Kaunas</option>
+            <option value="Vilnius">Vilnius</option>
+        </select>
+    </div>
+    <div class="container">
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+    </div>
+    <form>
+        Message: <br>
+        <textarea row="10" cols="30" name="Message">
+          Your message  
+        </textarea>
+    </form>
+    <button type="button">Sign up</button>
 </body>
 </html>
